@@ -13,6 +13,16 @@ public class MovementController : MonoBehaviour
     private Rigidbody2D rb;                         //Reference to the Rigidbody2D component
     private bool isGrounded;                        // Is the player on the ground?
 
+    public AudioClip jump;
+    public AudioClip backgroundMusic;
+
+    public AudioSource sfxPlayer;
+    public AudioSource musicPlayer;
+     
+    
+    
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,6 +50,7 @@ public class MovementController : MonoBehaviour
     {
         //Add an upward force for jumping
         rb.velocity = new Vector2(rb.velocity.x, jumpforce);
+       
 
     }
 

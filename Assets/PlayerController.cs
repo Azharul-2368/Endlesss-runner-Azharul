@@ -13,11 +13,7 @@ public class PlayerController : MonoBehaviour
         //Find the Rigidbody2D component that is attached to the same object as this script
         playerObject = GetComponent<Rigidbody2D>();
     }
-    public AudioClip jump;
-    public AudioClip backgroundMusic;
 
-    public AudioSource sfxPlayer;
-    public AudioSource musicPlayer;
 
 
     //Update is called once per frame
