@@ -13,9 +13,9 @@ public class Parallax : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.Find("Player"); //Find the player
+        player = GameObject.Find("player"); //Find the player
         rend = GetComponent<Renderer>(); //Save our starting position
-
+        playerStartPos = player.transform.position.x;
     }
 
     // Update is called once per frame
