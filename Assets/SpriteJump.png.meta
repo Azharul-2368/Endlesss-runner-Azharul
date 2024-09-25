@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 803262c4f87bd0c489577e939cf82796
+guid: 677e3e3d6c80fcb41a810a730786e5aa
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -149,13 +149,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spritesheetvolt_run_0
+      name: SpriteJump_0
       rect:
         serializedVersion: 2
-        x: 23
-        y: 381
-        width: 270
-        height: 343
+        x: 12
+        y: 229
+        width: 225
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83106f7d79b523d4686e2f21b2ccc1d7
-      internalID: 2116577258
+      spriteID: 5349abfcd18364740935406b1a68bb2e
+      internalID: -538216163
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheetvolt_run_1
+      name: SpriteJump_1
       rect:
         serializedVersion: 2
-        x: 293
-        y: 381
-        width: 270
-        height: 343
+        x: 237
+        y: 229
+        width: 225
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21561d2a5f978a24a9f7442bad2954d5
-      internalID: 382195887
+      spriteID: 5c183fa4ceaa90f489dc8d5241ab525f
+      internalID: -813237559
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheetvolt_run_2
+      name: SpriteJump_2
       rect:
         serializedVersion: 2
-        x: 563
-        y: 381
-        width: 270
-        height: 343
+        x: 462
+        y: 229
+        width: 225
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,20 +205,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa40093cc2b022248a057a91b0f13516
-      internalID: 995655181
+      spriteID: d181f8d33419128479608447fbc7f870
+      internalID: 1809347230
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheetvolt_run_3
+      name: SpriteJump_3
       rect:
         serializedVersion: 2
-        x: 833
-        y: 381
-        width: 270
-        height: 343
+        x: 687
+        y: 229
+        width: 225
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +226,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea9e601aca956fc438e4fbd160cc2299
-      internalID: -937947013
+      spriteID: 4cd0142853304d84d868881ccefa40d7
+      internalID: -1791677908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheetvolt_run_4
+      name: SpriteJump_4
       rect:
         serializedVersion: 2
-        x: 1103
-        y: 381
-        width: 270
-        height: 343
+        x: 12
+        y: 4
+        width: 225
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,20 +247,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 413684b7d11f35f4faf25727638a62de
-      internalID: -776838572
+      spriteID: 407f288ba8ee4eb42b0e80c5544caf81
+      internalID: 29229121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheetvolt_run_5
+      name: SpriteJump_5
       rect:
         serializedVersion: 2
-        x: 23
-        y: 38
-        width: 270
-        height: 343
+        x: 237
+        y: 4
+        width: 225
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,20 +268,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d6e40a98e807554ba517bf1fb14792e
-      internalID: 1698493607
+      spriteID: 675d8182e2b70bb499eaa39f06fc48d4
+      internalID: 506421909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheetvolt_run_6
+      name: SpriteJump_6
       rect:
         serializedVersion: 2
-        x: 293
-        y: 38
-        width: 270
-        height: 343
+        x: 462
+        y: 4
+        width: 225
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,20 +289,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fad20e2ee00c6b4fa51e64b732d146e
-      internalID: -1701931650
+      spriteID: 5aa3e2c7935723a4ba0e4b8e659c594d
+      internalID: -2061552671
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheetvolt_run_7
+      name: SpriteJump_7
       rect:
         serializedVersion: 2
-        x: 563
-        y: 38
-        width: 270
-        height: 343
+        x: 687
+        y: 4
+        width: 225
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,50 +310,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee4d53f36f201f3468527b4e4eb55453
-      internalID: -1087713206
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheetvolt_run_8
-      rect:
-        serializedVersion: 2
-        x: 833
-        y: 38
-        width: 270
-        height: 343
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d83c0f624268b894cbe4182f9e5e6b17
-      internalID: -1899660680
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheetvolt_run_9
-      rect:
-        serializedVersion: 2
-        x: 1103
-        y: 38
-        width: 270
-        height: 343
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b51845b80bb2c8643bae49af8e43bb83
-      internalID: -255769480
+      spriteID: 8571e4e61287dfa4e916dcce2860f89d
+      internalID: -241742115
       vertices: []
       indices: 
       edges: []
@@ -369,16 +327,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spritesheetvolt_run_0: 2116577258
-      spritesheetvolt_run_1: 382195887
-      spritesheetvolt_run_2: 995655181
-      spritesheetvolt_run_3: -937947013
-      spritesheetvolt_run_4: -776838572
-      spritesheetvolt_run_5: 1698493607
-      spritesheetvolt_run_6: -1701931650
-      spritesheetvolt_run_7: -1087713206
-      spritesheetvolt_run_8: -1899660680
-      spritesheetvolt_run_9: -255769480
+      SpriteJump_0: -538216163
+      SpriteJump_1: -813237559
+      SpriteJump_2: 1809347230
+      SpriteJump_3: -1791677908
+      SpriteJump_4: 29229121
+      SpriteJump_5: 506421909
+      SpriteJump_6: -2061552671
+      SpriteJump_7: -241742115
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -18,6 +18,7 @@ public class MovementController : MonoBehaviour
 
     public AudioSource sfxPlayer;
     public AudioSource musicPlayer;
+    Animator anim;
      
     
     
@@ -27,6 +28,7 @@ public class MovementController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();           // Get the Rigidbody2D component attached to the player
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -37,6 +39,7 @@ public class MovementController : MonoBehaviour
 
         //Check if the player is grounded
         isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, checkRadius, groundLayer);
+        anim.SetBool("isground", isGrounded);
 
         //Jumping logic
         if (isGrounded && Input.GetKeyDown(KeyCode.Space))
