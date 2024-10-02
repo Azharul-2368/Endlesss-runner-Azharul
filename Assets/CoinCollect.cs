@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class CoinCollect : MonoBehaviour
 {
-
+    public AudioSource coinSound;
     void OnTriggerEnter2D(Collider2D other)
     {
         // Check if the object collidiing with the coin is the player

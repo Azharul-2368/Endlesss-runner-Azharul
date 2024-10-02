@@ -6,8 +6,9 @@ public class CoinSpawner : MonoBehaviour
 {
     //Reference to the coin prefab
     public GameObject coinPrefab;
-    public AudioSource AudioSource;
-
+    public AudioSource coinSound;
+    public AudioSource sfxPlayer;
+    AudioSource playerSFX;
     //define the offset or range where the coin shouls spawn on the platform.
     public Vector2 coinOffset = new Vector2(0, 1); //Adjust as necessary
 
@@ -17,7 +18,7 @@ public class CoinSpawner : MonoBehaviour
     {
         //spawn the coin on the platform at the desired position
         SpawnCoin();
-
+        playerSFX = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
