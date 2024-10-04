@@ -9,14 +9,15 @@ public class MovementController : MonoBehaviour
     public Transform groundCheckPoint;              //A point to check if the player is grounded
     public float checkRadius = 0.2f;                //Radius of the overlap circle for ground detection
     public LayerMask groundLayer;                   //Layer of the ground objects
-
+    
     private Rigidbody2D rb;                         //Reference to the Rigidbody2D component
     private bool isGrounded;                        // Is the player on the ground?
 
     public AudioClip jump;
-    public AudioClip backgroundMusic;
+    public AudioClip coin;
 
     public AudioSource sfxPlayer;
+    AudioSource playerSFX;
     public AudioSource musicPlayer;
     Animator anim;
      
@@ -29,6 +30,7 @@ public class MovementController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();           // Get the Rigidbody2D component attached to the player
         anim = GetComponent<Animator>();
+        playerSFX = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -51,6 +53,7 @@ public class MovementController : MonoBehaviour
 
     private void Jump()
     {
+        playerSFX.PlayOneShot(jump);
         //Add an upward force for jumping
         rb.velocity = new Vector2(rb.velocity.x, jumpforce);
        
