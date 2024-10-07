@@ -15,7 +15,7 @@ public class PlayerDeath : MonoBehaviour
     }
 
 
-    void update()
+    void Update()
     {
 
         //check if the player falls below the threshhold
