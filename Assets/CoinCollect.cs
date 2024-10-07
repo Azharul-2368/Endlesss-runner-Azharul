@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class CoinCollect : MonoBehaviour
 {
-    public AudioSource coinSound;
+    
     void OnTriggerEnter2D(Collider2D other)
     {
         // Check if the object collidiing with the coin is the player
@@ -13,9 +13,10 @@ public class CoinCollect : MonoBehaviour
         {
             // Add ay score incrementing logic here, e.g.;
             // ScoreManager.instance.Addscore(1);
-
+            
             //Destroy the coin when it hits the player
             Destroy(gameObject);
+            
         }
     }
 }
