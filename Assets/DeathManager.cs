@@ -34,6 +34,6 @@ public class DeathManager : MonoBehaviour
     {
         //Reset time scale and quit the application
         Time.timeScale = 1f;
-        Application.Quit();
+        SceneManager.LoadScene(1);
     }
 }   
