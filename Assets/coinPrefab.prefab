@@ -76,12 +76,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9dd4253ffc7306b448a96195142fded7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f3614ba295497574787bf9c6bf27f667, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.69, y: 0.72}
+  m_Size: {x: 0.57, y: 0.6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -134,7 +134,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 307f53503b976dc44b94ee775218257a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collisionsound: {fileID: 8300000, guid: efba788179e08e94b9becc270999dd75, type: 3}
 --- !u!82 &1556474055539641751
 AudioSource:
   m_ObjectHideFlags: 0
