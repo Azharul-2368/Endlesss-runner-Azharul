@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -147,7 +147,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: character jump sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 347.5
+        width: 185.33333
+        height: 335.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630fb2db3f6a40442b1303bbda59fc3a
+      internalID: -472826574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character jump sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 347.5
+        width: 185.33333
+        height: 335.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d4667f82ff10c4986c4a8df7903c06
+      internalID: 1300203302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character jump sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 347.5
+        width: 185.33333
+        height: 335.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f712f53bf4134934b9ae7c0cdfe233ce
+      internalID: 1031157334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character jump sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 6.5
+        width: 185.33333
+        height: 335.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22edd1e34bbe8174887c49692622a144
+      internalID: -12209340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character jump sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 6.5
+        width: 185.33333
+        height: 335.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bdd7bb705286d54aaed78edf3a79342
+      internalID: 546450724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character jump sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 6.5
+        width: 185.33333
+        height: 335.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207b70e6efc8c42438b0b0a0f3d213de
+      internalID: -494256492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -158,7 +284,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      character jump sprite sheet_0: -472826574
+      character jump sprite sheet_1: 1300203302
+      character jump sprite sheet_2: 1031157334
+      character jump sprite sheet_3: -12209340
+      character jump sprite sheet_4: 546450724
+      character jump sprite sheet_5: -494256492
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

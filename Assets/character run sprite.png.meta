@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -147,7 +147,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: character run sprite_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 435.5
+        width: 466.25
+        height: 395.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4746dc6213f217488066a08bba2820a
+      internalID: 540685162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character run sprite_1
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 435.5
+        width: 466.25
+        height: 395.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4abe8dc60bab7ad40a90db70ea266007
+      internalID: -2075872502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character run sprite_2
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 435.5
+        width: 466.25
+        height: 395.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4ed08b509074c48b0b1789afbd9b5c
+      internalID: 136620892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character run sprite_3
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 20.5
+        width: 466.25
+        height: 395.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1e7f634c3d3ed4b82bee56f5e46824
+      internalID: -92689480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character run sprite_4
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 20.5
+        width: 466.25
+        height: 395.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236f67a4db6bf484c8303e5d6600c327
+      internalID: -155451907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character run sprite_5
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 20.5
+        width: 466.25
+        height: 395.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee20c57fc7bf724b88eb941407d37a1
+      internalID: 1856553259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -158,7 +284,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      character run sprite_0: 540685162
+      character run sprite_1: -2075872502
+      character run sprite_2: 136620892
+      character run sprite_3: -92689480
+      character run sprite_4: -155451907
+      character run sprite_5: 1856553259
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
