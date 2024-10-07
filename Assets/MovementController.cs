@@ -41,7 +41,7 @@ public class MovementController : MonoBehaviour
 
         //Check if the player is grounded
         isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, checkRadius, groundLayer);
-        anim.SetBool("isground", isGrounded);
+        anim.SetBool("IsOnGround", isGrounded);
 
         //Jumping logic
         if (isGrounded && Input.GetKeyDown(KeyCode.Space))
