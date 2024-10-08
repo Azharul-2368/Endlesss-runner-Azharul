@@ -13,10 +13,9 @@ public class CoinCollect : MonoBehaviour
         {
             // Add ay score incrementing logic here, e.g.;
             // ScoreManager.instance.Addscore(1);
-            
+            ScoreScript.scoreValue += 1;
             //Destroy the coin when it hits the player
-            Destroy(gameObject);
-            
+            Destroy(gameObject);           
         }
     }
 }

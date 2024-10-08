@@ -57,7 +57,7 @@ public class MovementController : MonoBehaviour
         //Add an upward force for jumping
         rb.velocity = new Vector2(rb.velocity.x, jumpforce);
        
-
+        
     }
 
     private void OnDrawGizmosSelected()
@@ -66,4 +66,6 @@ public class MovementController : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(groundCheckPoint.position, checkRadius);
     }
+
+
     }

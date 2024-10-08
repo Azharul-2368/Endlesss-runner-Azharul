@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8790112489369736058}
   - component: {fileID: 1556474055539641751}
   m_Layer: 0
-  m_Name: coinPrefab
+  m_Name: Coin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
