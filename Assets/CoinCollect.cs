@@ -15,8 +15,8 @@ public class CoinCollect : MonoBehaviour
             // ScoreManager.instance.Addscore(1);
             ScoreScript.scoreValue += 1;
             //Destroy the coin when it hits the player
-            Destroy(gameObject);  
-            
+            Destroy(gameObject);
+            ScoreManager.instance.AddPoint();
         }
     }
 }
