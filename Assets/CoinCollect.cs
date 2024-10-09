@@ -6,29 +6,31 @@ using System.Collections;
 
 public class CoinCollect : MonoBehaviour
 {
-    public AudioClip coinMusic;
-    AudioSource playerSFX;
+    //public AudioClip coinMusic;
+    public AudioClip playerSFX;
+    public AudioSource playerSFXuhuhuh;
     GameObject obj;
     
 
-    void start()
+    private void Start()
     {
-        
-        playerSFX = GetComponent<AudioSource>();
+
     }
-
-
 
     void OnTriggerEnter2D(Collider2D other)
     {
         
 
         // Check if the object collidiing with the coin is the player
-        if (other.gameObject.CompareTag("player")) ;
+        if (other.gameObject.CompareTag("Player"))
         {
+            playerSFXuhuhuh.PlayOneShot(playerSFX);
+
+            //Debug.LogWarning("Working");
             // Add ay score incrementing logic here, e.g.;  
-                // ScoreManager.instance.Addscore(1);
-           
+            // ScoreManager.instance.Addscore(1);
+
+
             ScoreScript.scoreValue += 1;
             //Destroy the coin when it hits the player
             Destroy(gameObject);

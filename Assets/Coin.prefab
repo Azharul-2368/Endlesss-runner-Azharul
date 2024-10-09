@@ -134,7 +134,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 307f53503b976dc44b94ee775218257a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinMusic: {fileID: 8300000, guid: efba788179e08e94b9becc270999dd75, type: 3}
+  playerSFX: {fileID: 8300000, guid: efba788179e08e94b9becc270999dd75, type: 3}
+  playerSFXuhuhuh: {fileID: 1556474055539641751}
 --- !u!82 &1556474055539641751
 AudioSource:
   m_ObjectHideFlags: 0
@@ -145,7 +146,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: efba788179e08e94b9becc270999dd75, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -153,7 +154,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 206
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
