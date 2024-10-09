@@ -6,37 +6,33 @@ using System.Collections;
 
 public class CoinCollect : MonoBehaviour
 {
-    public AudioClip Coin;
-    AudioSource aSource;
+    public AudioClip coinMusic;
+    AudioSource playerSFX;
     GameObject obj;
+    
 
     void start()
     {
-        obj = GameObject.Find("AudioObject");
-        if (obj != null)
-        aSource = obj.GetComponent<AudioSource>();
+        
+        playerSFX = GetComponent<AudioSource>();
     }
 
 
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "player")
-        {
-            aSource.clip = Coin;
-            aSource.Play();
-        }
+        
 
         // Check if the object collidiing with the coin is the player
         if (other.gameObject.CompareTag("player")) ;
         {
-            // Add ay score incrementing logic here, e.g.;
-            // ScoreManager.instance.Addscore(1);
+            // Add ay score incrementing logic here, e.g.;  
+                // ScoreManager.instance.Addscore(1);
+           
             ScoreScript.scoreValue += 1;
             //Destroy the coin when it hits the player
             Destroy(gameObject);
             ScoreManager.instance.AddPoint();
-            
         }
     }
 }

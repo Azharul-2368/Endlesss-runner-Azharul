@@ -14,7 +14,7 @@ public class MovementController : MonoBehaviour
     private bool isGrounded;                        // Is the player on the ground?
 
     public AudioClip jump;
-    public AudioClip CoinCollect;
+    public AudioClip coinMusic;
      
     public AudioSource sfxPlayer;
     AudioSource playerSFX;

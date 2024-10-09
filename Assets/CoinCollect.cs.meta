@@ -4,10 +4,7 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - coinSound: {instanceID: 0}
-  - Coin: {fileID: 8300000, guid: efba788179e08e94b9becc270999dd75, type: 3}
-  - coinPrefab: {fileID: 6390574732513793322, guid: 45f8058c4d435a64c8a451779aeb4082, type: 3}
-  - sfxPlayer: {instanceID: 0}
+  - coinMusic: {fileID: 8300000, guid: efba788179e08e94b9becc270999dd75, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
